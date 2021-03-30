@@ -1,44 +1,44 @@
-.VideoPage {
+#video {
   padding-bottom: 32px;
 }
 
-.VideoPage .video-container {
+#video .video-container {
   background-color: black;
   margin-bottom: var(--space-big);
 }
 
-.VideoPage .body-container {
+#video .body-container {
   margin: 0 auto;
   padding-left: var(--space-big);
   padding-right: var(--space-big);
 }
 
-.VideoPage video {
+#video video {
   display: block; /* To remove a small space on the bottom */
   margin: 0 auto;
   width: 100%;
   height: auto;
 }
 
-.VideoPage .channel-thumb {
+#video .channel-thumb {
   width: 48px !important; /* overrides meta-data size */
 }
 
-.VideoPage .title {
+#video .title {
   font-size: var(--font-size-big);
 }
 
-.VideoPage .description {
+#video .description {
   font-size: var(--font-size-small);
   max-width: 640px;
 }
 
 /* YouTube breakpoints */
-@media only screen and (min-width: 900px) {
-  .VideoPage video {
+@media (min-width: 750px) {
+  #video video {
     width: 850px;
   }
-  .VideoPage .body-container {
+  #video .body-container {
     padding: 0;
     max-width: 960px;
   }

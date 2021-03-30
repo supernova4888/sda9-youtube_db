@@ -1,5 +1,4 @@
 .card {
-  box-sizing: border-box;
   margin: 0 auto var(--space-big);
   user-select: none;
   cursor: default;
@@ -11,7 +10,7 @@
   margin-bottom: var(--space-small);
 }
 
-@media (min-width: 900px) {
+@media (min-width: 750px) {
   .card .meta-data {
     padding: 0;
   }

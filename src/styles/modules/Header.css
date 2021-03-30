@@ -30,7 +30,7 @@
   color: var(--color-medium-grey);
 }
 
-@media (min-width: 660px) {
+@media (min-width: 550px) {
   .header {
     grid-template-columns: repeat(3, 1fr);
   }

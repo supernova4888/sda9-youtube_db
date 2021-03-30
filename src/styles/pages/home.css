@@ -16,7 +16,7 @@
 }
 
 /* YouTube breakpoints */
-@media only screen and (min-width: 500px) {
+@media (min-width: 400px) {
   #home .container {
     /* the max width is 2 columns + the gap */
     max-width: calc(2 * 320px + 16px);
@@ -28,7 +28,7 @@
   }
 }
 
-@media only screen and (min-width: 660px) {
+@media (min-width: 550px) {
   #home .container {
     padding-left: var(--space-big);
     padding-right: var(--space-big);
@@ -39,7 +39,7 @@
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media (min-width: 750px) {
   #home .container {
     max-width: calc(3 * 320px + 16px);
   }
@@ -49,7 +49,7 @@
   }
 }
 
-@media only screen and (min-width: 1000px) {
+@media (min-width: 1200px) {
   #home .container {
     max-width: 960px;
   }
