@@ -2,7 +2,9 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: var(--space-medium);
-  padding: 12px var(--space-medium);
+  align-items: center;
+  padding: var(--space-medium);
+  background-color: white;
 }
 
 .header.light {
@@ -16,7 +18,6 @@
 .header img {
   max-width: 120px;
   height: auto;
-  vertical-align: middle;
 }
 
 .header.dark .search-bar input {
@@ -29,7 +30,7 @@
   color: #727272;
 }
 
-@media only screen and (min-width: 660px) {
+@media (min-width: 660px) {
   .header {
     grid-template-columns: repeat(3, 1fr);
   }
