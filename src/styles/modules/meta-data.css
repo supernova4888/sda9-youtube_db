@@ -16,7 +16,7 @@
 
 .meta-data .title,
 .meta-data .description {
-  font-size: 14px;
+  font-size: var(--font-size-small);
 }
 
 .meta-data .title {

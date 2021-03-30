@@ -25,11 +25,11 @@
 }
 
 .VideoPage .title {
-  font-size: 21px;
+  font-size: var(--font-size-big);
 }
 
 .VideoPage .description {
-  font-size: 14px;
+  font-size: var(--font-size-small);
   max-width: 640px;
 }
 

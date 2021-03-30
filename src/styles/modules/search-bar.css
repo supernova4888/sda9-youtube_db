@@ -5,7 +5,7 @@
   width: calc(100% - 64px - 10px); /* 48px is the width of the search button */
   height: 36px;
   padding: var(--space-small);
-  font-size: 14px;
+  font-size: var(--font-size-small);
   border: solid 0.5px #828282;
   outline: none;
 }
