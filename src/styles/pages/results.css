@@ -1,11 +1,5 @@
 #results {
-  height: 100%; /* 100vh forces to cover the screen. 100% only cover the screen if there is a lot of content. */
-}
-
-#results .container {
-  margin: 0 auto;
-  padding-top: 32px;
-  max-width: 320px;
+  height: 100%;
 }
 
 #results .container > .title {
@@ -17,11 +11,6 @@
 
 /* YouTube breakpoints */
 @media (min-width: 400px) {
-  #results .container {
-    max-width: 100%;
-    margin-left: var(--space-medium);
-  }
-
   #results .card {
     display: flex;
     flex-direction: row;

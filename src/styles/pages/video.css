@@ -15,9 +15,9 @@
 
 #video video {
   display: block; /* To remove a small space on the bottom */
-  margin: 0 auto;
   width: 100%;
   height: auto;
+  margin: 0 auto;
 }
 
 #video .channel-thumb {
@@ -33,13 +33,8 @@
   max-width: 640px;
 }
 
-/* YouTube breakpoints */
 @media (min-width: 750px) {
   #video video {
     width: 850px;
-  }
-  #video .body-container {
-    padding: 0;
-    max-width: 960px;
   }
 }
