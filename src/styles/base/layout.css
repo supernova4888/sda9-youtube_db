@@ -14,14 +14,13 @@ body {
 
 @media (min-width: 400px) {
   .container {
-    padding-left: var(--space-big);
-    padding-right: var(--space-big);
+    padding: var(--space-big);
   }
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: 960px;
-    padding: 0;
+    padding: var(--space-big) 0;
   }
 }
