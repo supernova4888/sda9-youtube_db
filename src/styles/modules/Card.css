@@ -1,13 +1,6 @@
-.card {
-  margin: 0 auto var(--space-big);
-  user-select: none;
-  cursor: default;
-}
-
 .card .preview {
   width: 100%;
   height: auto;
-  margin-bottom: var(--space-small);
 }
 
 @media (min-width: 750px) {
