@@ -3,7 +3,7 @@ body {
 }
 
 .App {
-  background-color: #f9f9f9;
-  color: #212121;
+  background-color: var(--color-light-grey);
+  color: var(--color-dark-grey);
   font-family: "Roboto", sans-serif;
 }

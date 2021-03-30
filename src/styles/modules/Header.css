@@ -12,7 +12,7 @@
 }
 
 .header.dark {
-  background-color: #252525;
+  background-color: var(--color-dark-grey);
 }
 
 .header img {
@@ -21,13 +21,13 @@
 }
 
 .header.dark .search-bar input {
-  background-color: #121212;
-  color: #f8f8f8;
+  background-color: var(--color-dark-grey);
+  color: var(--color-light-grey);
 }
 
 .header.dark .search-bar button {
-  background-color: #363636;
-  color: #727272;
+  background-color: var(--color-dark-grey);
+  color: var(--color-medium-grey);
 }
 
 @media (min-width: 660px) {

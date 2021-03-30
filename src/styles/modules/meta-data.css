@@ -28,5 +28,5 @@
 }
 
 .meta-data .description {
-  color: grey;
+  color: var(--color-medium-grey);
 }
