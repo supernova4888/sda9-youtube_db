@@ -6,7 +6,8 @@ export default function Card({ information }) {
   const channelThumbURL = channelThumbObject.default;
 
   return (
-    <article className="Card">
+    <article className="card">
+      {/* Video thumbnail */}
       <a href={`/video/${information.id}`}>
         <img
           className="preview"
@@ -15,6 +16,7 @@ export default function Card({ information }) {
         />
       </a>
 
+      {/* Meta data */}
       <div className="meta-data">
         <div className="left">
           <img
@@ -24,7 +26,7 @@ export default function Card({ information }) {
           />
         </div>
         <div className="right">
-          <h1 className="title">{information.title}</h1>
+          <h3 className="title">{information.title}</h3>
           <p className="description">{information.channelName}</p>
           <p className="description">{information.views} views</p>
         </div>

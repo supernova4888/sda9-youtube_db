@@ -4,7 +4,7 @@ Order of importing:
 The order of importing the components, affects the final style of the items.
 The order must be from broad to specific, thats why we import in this order:
 1. Base
-2. Template
+2. Pages/Templates
 3. Modules
 4. Components
 
@@ -14,20 +14,20 @@ Class naming:
 */
 
 /* Base */
-@import url('./base/layout.css');
+@import url("./base/layout.css");
 
-/* Templates */
-@import url('./templates/HomePage.css');
-@import url('./templates/ResultsPage.css');
-@import url('./templates/VideoPage.css');
+/* Pages/Templates */
+@import url("./pages/home.css");
+@import url("./pages/results.css");
+@import url("./pages/video.css");
 
 /* Modules */
-@import url('./modules/Card.css');
-@import url('./modules/Header.css');
-@import url('./modules/meta-data.css');
-@import url('./modules/search-bar.css');
+@import url("./modules/card.css");
+@import url("./modules/header.css");
+@import url("./modules/meta-data.css");
+@import url("./modules/search-bar.css");
 
 /* Components */
-@import url('./components/button.css');
-@import url('./components/horizonal-rule.css');
-@import url('./components/typography.css');
+@import url("./components/button.css");
+@import url("./components/horizonal-rule.css");
+@import url("./components/typography.css");

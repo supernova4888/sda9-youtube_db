@@ -9,18 +9,19 @@ export default function Header() {
   const logoURL = logoObject.default;
 
   return (
-    <header className="Header">
+    <header className="header">
+      {/* Logo */}
       <img src={logoURL} alt="Logo" />
 
-      {/* Refactor to form */}
-      <div className="search-bar">
+      {/* Search bar */}
+      <form className="search-bar">
         <input
           placeholder="Search"
           value={query}
           onChange={(event) => setQuery(event.target.value)}
         />
-        <button href="#">Search</button>
-      </div>
+        <input type="submit" value="Search" />
+      </form>
     </header>
   );
 }
