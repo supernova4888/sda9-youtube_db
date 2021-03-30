@@ -9,8 +9,8 @@
 }
 
 #results .container > .title {
-  padding-left: 8px;
-  margin-bottom: 16px;
+  padding-left: var(--space-small);
+  margin-bottom: var(--space-medium);
   font-size: 20px;
   letter-spacing: -0.75px;
 }
@@ -19,7 +19,7 @@
 @media only screen and (min-width: 500px) {
   #results .container {
     max-width: 100%;
-    margin-left: 16px;
+    margin-left: var(--space-medium);
   }
 
   #results .card {
@@ -30,7 +30,7 @@
   #results .card .preview {
     width: auto;
     height: 160px;
-    margin-right: 8px;
+    margin-right: var(--space-medium);
   }
 
   #results .card .channel-thumb {

@@ -1,6 +1,7 @@
 #home {
-  height: 100%; /* 100vh forces to cover the screen. 100% only cover the screen if there is a lot of content. */
+  height: 100vh; /* 100vh forces to cover the screen. 100% only cover the screen if there is a lot of content. */
 }
+
 #home .container {
   margin: 0 auto;
   padding-top: 32px;
@@ -9,7 +10,7 @@
 
 #home .container > .title {
   padding-left: 8px;
-  margin-bottom: 16px;
+  margin-bottom: var(--space-medium);
   font-size: 20px;
   letter-spacing: -0.75px;
 }
@@ -17,14 +18,13 @@
 /* YouTube breakpoints */
 @media only screen and (min-width: 500px) {
   #home .container {
-    max-width: calc(
-      2 * 320px + 16px
-    ); /* the max width is 2 columns + the gap */
+    /* the max width is 2 columns + the gap */
+    max-width: calc(2 * 320px + 16px);
   }
   #home .grid {
     display: grid; /* the native way of creating columns withouth hacks or frameworks */
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 16px;
+    grid-column-gap: var(--space-medium);
   }
 }
 

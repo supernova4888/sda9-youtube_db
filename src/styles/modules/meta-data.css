@@ -1,11 +1,11 @@
 .meta-data {
   display: flex;
-  padding: 0 8px;
   flex-direction: row;
+  padding: 0 var(--space-small);
 }
 
 .meta-data .left {
-  margin-right: 8px;
+  margin-right: var(--space-small);
 }
 
 .meta-data .channel-thumb {
@@ -20,11 +20,11 @@
 }
 
 .meta-data .title {
-  margin-bottom: 8px;
+  margin-bottom: var(--space-small);
 }
 
 .meta-data .description {
-  margin-bottom: 4px;
+  margin-bottom: var(--space-small);
 }
 
 .meta-data .description {
