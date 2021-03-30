@@ -23,7 +23,7 @@
   }
   #home .grid {
     display: grid; /* the native way of creating columns withouth hacks or frameworks */
-    grid-template-columns: 1fr 1fr; /* each fr is a equal space column. */
+    grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 16px;
   }
 }
@@ -40,31 +40,21 @@
 }
 
 @media only screen and (min-width: 900px) {
-  .HomePage .container {
+  #home .container {
     max-width: calc(3 * 320px + 16px);
   }
 
-  .HomePage .grid {
-    grid-template-columns: 1fr 1fr 1fr;
+  #home .grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media only screen and (min-width: 1000px) {
-  .HomePage .container {
-    max-width: calc(4 * 320px + 16px);
+  #home .container {
+    max-width: 960px;
   }
 
-  .HomePage .grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
-
-@media only screen and (min-width: 1366px) {
-  .HomePage .container {
-    max-width: calc(5 * 320px + 16px);
-  }
-
-  .HomePage .grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  #home .grid {
+    grid-template-columns: repeat(4, 1fr);
   }
 }

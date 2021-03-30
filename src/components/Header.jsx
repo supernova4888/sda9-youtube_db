@@ -16,6 +16,7 @@ export default function Header() {
       {/* Search bar */}
       <form className="search-bar">
         <input
+          type="text"
           placeholder="Search"
           value={query}
           onChange={(event) => setQuery(event.target.value)}
