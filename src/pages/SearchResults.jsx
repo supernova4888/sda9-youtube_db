@@ -11,8 +11,10 @@ export default function SearchResults({ match }) {
   const [sortKey, setSortKey] = useState("title");
 
   // Consts
-  const query = match.params.query; // make to upperse
-  const filteredResults = Information.filter((item) => item.title.match(query));
+  const query = match.params.query.toUpperCase();
+  const filteredResults = Information.filter((item) =>
+    item.title.toUpperCase().match(query)
+  );
   const sortedResults = filteredResults.sort((a, b) =>
     a[sortKey] > b[sortKey] ? 1 : -1
   );
