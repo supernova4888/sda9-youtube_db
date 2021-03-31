@@ -2,7 +2,6 @@
 import { useState } from "react";
 
 // Project files
-import Header from "../components/Header";
 import Card from "../components/Card";
 import Information from "../data/information.json";
 

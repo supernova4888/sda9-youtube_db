@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import YouTube from "react-youtube";
 
 // Project files
-import Header from "../components/Header";
 import VideoDescription from "../components/VideoDescription";
 import Information from "../data/information.json";
 
