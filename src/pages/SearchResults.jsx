@@ -1,18 +1,24 @@
+// NPM Package
+import { useState } from "react";
+
 // Project files
 import Header from "../components/Header";
 import Card from "../components/Card";
 import Information from "../data/information.json";
 
 export default function SearchResults({ match }) {
+  // State
+  const [sortKey, setSortKey] = useState("title");
+
   // Consts
   const query = match.params.query; // make to upperse
-  const results = Information.filter((item) => item.title.match(query));
-
-  // Method
-  function sortCards() {}
+  const filteredResults = Information.filter((item) => item.title.match(query));
+  const sortedResults = filteredResults.sort((a, b) =>
+    a[sortKey] > b[sortKey] ? 1 : -1
+  );
 
   // Components
-  const CardsArray = results.map((item) => (
+  const CardsArray = sortedResults.map((item) => (
     <Card key={item.id} information={item} />
   ));
 
@@ -23,8 +29,8 @@ export default function SearchResults({ match }) {
       <div className="container">
         {/* Search options */}
         Filter results by:
-        <button>Name</button>
-        <button>Channel</button>
+        <button onClick={() => setSortKey("title")}>Name</button>
+        <button onClick={() => setSortKey("channelName")}>Channel</button>
         <hr />
         {/* Content */}
         <section className="grid">{CardsArray}</section>
