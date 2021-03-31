@@ -10,7 +10,7 @@
     "views": "20,532,511",
     "uploadDate": "Oct 2, 2008",
     "thumb": "another-way-to-die.jpg",
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/react-tube-19e9e.appspot.com/o/another-way-to-die.mp4?alt=media&token=6ad4e902-76b1-4972-b2af-5dd6cac2c13b"
+    "videoId": "hM5UJvnbbuY"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
     "views": "10,153,126",
     "uploadDate": "Apr 15, 2019",
     "thumb": "boeing-737-max.jpg",
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/react-tube-19e9e.appspot.com/o/boeing-737-max.mp4?alt=media&token=cdc66ae5-b01d-4363-8a9c-be422c122bd6"
+    "videoId": "H2tuKiiznsY"
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
     "views": "276,047",
     "uploadDate": "Jan 19, 2013",
     "thumb": "gameboy-pocket-review.jpg",
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/react-tube-19e9e.appspot.com/o/gameboy-pocket-review.mp4?alt=media&token=7977d479-c489-4ca0-9050-e8bc0550e296"
+    "videoId": "vMX0XOVbGms"
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
     "views": "56,191,593",
     "uploadDate": "Feb 13, 2000",
     "thumb": "no-time-to-die.jpg",
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/react-tube-19e9e.appspot.com/o/no-time-to-die.mp4?alt=media&token=5181a637-d35f-4cfd-a5ee-292d4ea30119"
+    "videoId": "BboMpayJomw"
   },
   {
     "id": 5,
@@ -62,7 +62,7 @@
     "views": "2,745,271",
     "uploadDate": "Oct 24, 2019",
     "thumb": "plane-tires.jpg",
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/react-tube-19e9e.appspot.com/o/plane-tires.mp4?alt=media&token=10e31987-03f8-45b8-80e4-3396d242bb19"
+    "videoId": "_CyXMNHYl70"
   },
   {
     "id": 6,
@@ -75,7 +75,7 @@
     "views": "388,873,306",
     "uploadDate": "Oct 18, 2012",
     "thumb": "skyfall.jpg",
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/react-tube-19e9e.appspot.com/o/skyfall.mp4?alt=media&token=47af287a-891a-4e36-9aa3-cb81cb0f0ee6"
+    "videoId": "DeumyOzKqgI"
   },
   {
     "id": 7,
@@ -88,7 +88,7 @@
     "views": "2,752,388",
     "uploadDate": "Feb 10, 2015",
     "thumb": "sonic-boom-problem.jpg",
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/react-tube-19e9e.appspot.com/o/sonic-boom-problem.mp4?alt=media&token=926645b0-ae70-461e-9f2b-1b66ccc0d7ad"
+    "videoId": "JO4_VHM69oI"
   },
   {
     "id": 8,
@@ -101,7 +101,7 @@
     "views": "1,110,591",
     "uploadDate": "May 15, 2017",
     "thumb": "supersonic-flight.jpg",
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/react-tube-19e9e.appspot.com/o/supersonic-flight.mp4?alt=media&token=e96b93a0-0a94-4a57-8b20-df807f5f3e70"
+    "videoId": "R43gKMWAPco"
   },
   {
     "id": 9,
@@ -114,7 +114,7 @@
     "views": "826,737",
     "uploadDate": "Sep 27, 2019",
     "thumb": "switch-lite.jpg",
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/react-tube-19e9e.appspot.com/o/switch-lite.mp4?alt=media&token=df373890-d315-4df7-84d6-f95d7678e4c7"
+    "videoId": "DbhVTa1SY70"
   },
   {
     "id": 10,
@@ -127,7 +127,7 @@
     "views": "1,110,512",
     "uploadDate": "Oct 4, 2016",
     "thumb": "unboxing-gameboy.jpg",
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/react-tube-19e9e.appspot.com/o/unboxing-gameboy.mp4?alt=media&token=3967fa48-af1f-490b-a4f4-ae2e06c9cef6"
+    "videoId": "cU011lLs0M0"
   },
   {
     "id": 11,
@@ -140,19 +140,19 @@
     "views": "1,453,951",
     "uploadDate": "Jul 25, 2014",
     "thumb": "unboxing-gameboy-color.jpg",
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/react-tube-19e9e.appspot.com/o/unboxing-gameboy-color.mp4?alt=media&token=bb9a1ea1-1d51-4cb7-96e8-0ca063366ee8"
+    "videoId": "la--KfCQKA4"
   },
   {
     "id": 12,
     "category": "music",
-    "title": "You Know My Name (From \"Casino Royale\" Soundtrack)",
-    "description": "Provided to YouTube by Universal Music Group\n\nYou Know My Name (From \"Casino Royale\" Soundtrack) · Chris Cornell",
+    "title": "You Know My Name (From Casino Royale Soundtrack)",
+    "description": "Provided to YouTube by Universal Music Group\n\nYou Know My Name (From Casino Royale Soundtrack) · Chris Cornell",
     "channelName": "Chris Cornell",
     "channelThumb": "chis-cornell.jpg",
     "suscribers": "211K",
     "views": "221,014",
     "uploadDate": "Jul 30, 2018",
     "thumb": "you-know-my-name.jpg",
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/react-tube-19e9e.appspot.com/o/you-know-my-name.mp4?alt=media&token=b0fa28e8-8943-454e-8c04-4a2c0fdfa022"
+    "videoId": "0p7WZRL6I-8"
   }
 ]
