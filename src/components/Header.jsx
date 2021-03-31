@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 export default function Header() {
   // State
@@ -8,6 +8,14 @@ export default function Header() {
   // Property
   const logoObject = require(`../assets/images/logo/logo-light.svg`);
   const logoURL = logoObject.default;
+  const history = useHistory();
+
+  // Methods
+  function onSearch(event) {
+    event.preventDefault();
+
+    history.push(`/results/${query}`);
+  }
 
   return (
     <header className="header">
@@ -17,7 +25,7 @@ export default function Header() {
       </Link>
 
       {/* Search bar */}
-      <form className="search-bar">
+      <form onSubmit={onSearch} className="search-bar">
         <input
           type="text"
           placeholder="Search"

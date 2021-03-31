@@ -1,11 +1,20 @@
 // Project files
 import Header from "../components/Header";
 import Card from "../components/Card";
+import Information from "../data/information.json";
 
 export default function SearchResults({ match }) {
-  const query = match.params.query;
-  console.log("Results");
-  console.log("search query", query);
+  // Consts
+  const query = match.params.query; // make to upperse
+  const results = Information.filter((item) => item.title.match(query));
+
+  // Method
+  function sortCards() {}
+
+  // Components
+  const CardsArray = results.map((item) => (
+    <Card key={item.id} information={item} />
+  ));
 
   return (
     <div id="results">
@@ -14,15 +23,11 @@ export default function SearchResults({ match }) {
       <div className="container">
         {/* Search options */}
         Filter results by:
-        {/* <button onClick={() => setCards(sortCards("title", results))}>
-          Name
-        </button>
-        <button onClick={() => setCards(sortCards("channelName", results))}>
-          Channel
-        </button> */}
+        <button>Name</button>
+        <button>Channel</button>
         <hr />
         {/* Content */}
-        {/* <section className="grid">{cards}</section> */}
+        <section className="grid">{CardsArray}</section>
       </div>
     </div>
   );
