@@ -25,16 +25,17 @@ export default function SearchResults({ match }) {
   ));
 
   return (
-    <div id="results">
-      <div className="container">
-        {/* Search options */}
+    <div id="results" className="container">
+      {/* Search options */}
+      <section>
         Filter results by:
         <button onClick={() => setSortKey("title")}>Name</button>
         <button onClick={() => setSortKey("channelName")}>Channel</button>
-        <hr />
-        {/* Content */}
-        <section className="grid">{CardsArray}</section>
-      </div>
+      </section>
+
+      <hr />
+      {/* Content */}
+      <section className="grid">{CardsArray}</section>
     </div>
   );
 }

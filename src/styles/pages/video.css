@@ -5,6 +5,7 @@
 #video .video-container {
   background-color: black;
   margin-bottom: var(--space-big);
+  text-align: center;
 }
 
 #video .body-container {

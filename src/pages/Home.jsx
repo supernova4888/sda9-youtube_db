@@ -9,13 +9,11 @@ export default function Home() {
   ));
 
   return (
-    <div id="home">
+    <div id="home" className="container">
       {/* Content with cards */}
-      <section className="container">
-        <h1>Recommended videos</h1>
+      <h1>Recommended videos</h1>
 
-        <div className="grid">{CardsArray}</div>
-      </section>
+      <div className="grid">{CardsArray}</div>
     </div>
   );
 }

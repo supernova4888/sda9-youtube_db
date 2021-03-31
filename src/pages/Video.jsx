@@ -13,7 +13,7 @@ export default function Video({ match }) {
   const video = Information.find((item) => item.videoId === routerID); // hey find inside the json the object that has the key "videoId" that matches "match.params.id"
 
   return (
-    <div id="video">
+    <div id="video" className="container">
       {/* Video Player */}
       <div className="video-container">
         {/* Replace with a React external library */}
