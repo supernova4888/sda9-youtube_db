@@ -14,9 +14,6 @@ export default function Video({ match }) {
 
   return (
     <div id="video">
-      {/* Header */}
-      <Header />
-
       {/* Video Player */}
       <div className="video-container">
         {/* Replace with a React external library */}

@@ -26,8 +26,6 @@ export default function SearchResults({ match }) {
 
   return (
     <div id="results">
-      <Header />
-
       <div className="container">
         {/* Search options */}
         Filter results by:

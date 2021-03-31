@@ -1,5 +1,4 @@
 // Project files
-import Header from "../components/Header";
 import Card from "../components/Card";
 import Information from "../data/information.json";
 
@@ -11,9 +10,6 @@ export default function Home() {
 
   return (
     <div id="home">
-      {/* Header */}
-      <Header />
-
       {/* Content with cards */}
       <section className="container">
         <h1>Recommended videos</h1>
