@@ -1,3 +1,6 @@
+// NPM Package
+import { Link } from "react-router-dom";
+
 export default function Card({ information }) {
   // Properties
   const videoThumbObject = require(`../assets/images/${information.thumb}`);
@@ -8,13 +11,14 @@ export default function Card({ information }) {
   return (
     <article className="card">
       {/* Video thumbnail */}
-      <a href={`/video/${information.id}`}>
+      <Link to={`video/${information.videoId}`}>
         <img
           className="preview"
           src={videoThumbURL}
           alt={information.description}
         />
-      </a>
+      </Link>
+
 
       {/* Meta data */}
       <div className="meta-data">

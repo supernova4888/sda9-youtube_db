@@ -1,4 +1,5 @@
 // NPM Packages
+import { Link } from "react-router-dom";
 import YouTube from "react-youtube";
 
 // Project files
@@ -6,9 +7,10 @@ import Header from "../components/Header";
 import VideoDescription from "../components/VideoDescription";
 import Information from "../data/information.json";
 
-export default function Video() {
+export default function Video({ match }) {
   // Constants
-  const video = Information[0];
+  const routerID = match.params.id;
+  const video = Information.find((item) => item.videoId === routerID); // hey find inside the json the object that has the key "videoId" that matches "match.params.id"
 
   return (
     <div id="video">
@@ -34,9 +36,9 @@ export default function Video() {
 
         <hr />
 
-        <a className="button" href="#">
+        <Link className="button" to="/">
           Back to home
-        </a>
+        </Link>
       </div>
     </div>
   );

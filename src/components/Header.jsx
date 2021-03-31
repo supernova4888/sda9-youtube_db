@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   // State
@@ -11,7 +12,9 @@ export default function Header() {
   return (
     <header className="header">
       {/* Logo */}
-      <img src={logoURL} alt="Logo" />
+      <Link to="/">
+        <img src={logoURL} alt="Logo" />
+      </Link>
 
       {/* Search bar */}
       <form className="search-bar">
