@@ -6,8 +6,7 @@ import "./styles/style.css";
 export default function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
-      <Video />
+      <Home />
     </div>
   );
 }

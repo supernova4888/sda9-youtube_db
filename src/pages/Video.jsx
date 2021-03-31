@@ -1,3 +1,6 @@
+// NPM Packages
+import YouTube from "react-youtube";
+
 // Project files
 import Header from "../components/Header";
 import VideoDescription from "../components/VideoDescription";
@@ -15,6 +18,7 @@ export default function Video() {
       {/* Video Player */}
       <div className="video-container">
         {/* Replace with a React external library */}
+        <YouTube videoId={video.videoId} />
       </div>
 
       <div className="body-container">
